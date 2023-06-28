@@ -1,0 +1,165 @@
+.experience{
+    display: flex;
+    flex-direction: column;
+    width: calc(360px - 64px);
+    padding: 32px;
+    gap: 16px;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    
+}
+
+.experience__section__title{
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.experiencie__box{
+    width: 296px;
+    height: 251px;    
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.experience__img{
+    width: 296px;
+    height: 144px;
+}
+
+.experience__info-container{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.experience__title{    
+    font-size: .9rem;
+    font-weight: 700;    
+}
+
+.experience__text{
+    font-size: .7rem;
+    
+}
+
+.experience__description{
+    display: flex;
+    width: 296px;
+    height: 40px;
+    gap: 16px;
+}
+
+.experience__repo{
+    width: 108px;
+    height: 40px;    
+}
+
+.experience__repo button{
+    text-decoration: none;
+    width: 108px;
+    height: 40px;
+    padding: 12px 16px 12px 16px;
+    color: #2A7AE4;
+    border: solid 1px #2A7AE4;
+}
+
+.experience__demo {
+    border: none;
+}
+
+.experience__demo button{
+    border: none;
+    text-decoration: none;
+    width: 108px;
+    height: 40px;
+    padding: 12px 16px 12px 16px;
+    color: aliceblue;
+    background-color: #2A7AE4;
+}
+
+@media screen and (min-width:0px){}
+@media screen and (min-width:425px){}
+@media screen and (min-width:768px){
+
+    .experience{        
+        width: calc(768px - 64px);
+        gap: 64px;
+    }
+
+    
+.experience__section__title{
+    font-size: 1.7rem;    
+}
+
+.experiencie__box{
+    width: 704px;
+    height: 427px;    
+    display: flex;    
+}
+
+.experience__img{
+    width: 704px;
+    height: 320px;
+}
+
+.experience__info-container{    
+    gap: 10px;
+}
+
+.experience__title{    
+    font-size: 1.5rem;    
+}
+
+.experience__text{
+    font-size: 1rem;
+    
+}
+
+} 
+
+
+@media screen and (min-width:1440px){
+
+
+    .experience{        
+        width: calc(1136px - 64px);
+        gap: 64px;        
+    }
+
+    .experiencie__box{
+        width: 1136px;
+        height: 427px;    
+        display: flex;  
+        flex-direction: row;  
+    }
+
+    .experience__img{
+        width: 752px;
+        height: 406px;
+    }
+
+    .experience__info-container{          
+        justify-content: center;  
+        gap: 10px;
+    }
+
+    .reverse{
+        flex-direction: row-reverse;
+    }
+
+    .experience__title{    
+        font-size: 1.5rem;    
+    }
+
+    .experience__text{
+        font-size: 1rem;
+        
+    }
+
+} 
+
+
+

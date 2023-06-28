@@ -1,0 +1,133 @@
+
+.title{
+display: flex;
+align-items: center;
+justify-content: center;
+position: relative;
+gap: 16px;
+margin: auto;
+}
+
+.title__div{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.title__profile{
+    width: 98px;
+    height: auto;
+    border: 2px solid #000;
+    border-radius: 50%;
+}
+
+.title__container{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.title__bio{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.title__subsection{
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+.title__network{
+    display: flex;
+    font-size: .9rem;
+    gap: 8px;
+    font-weight: bold;
+}
+
+.title__network__item{
+    display: flex;
+}
+
+
+@media screen and (min-width:0px){
+
+    .title__div{         
+        gap: 16px;    
+        padding: 16px;    
+        width: calc(360px - 32px);
+    }
+
+}
+@media screen and (min-width:425px){}
+@media screen and (min-width:768px){
+
+    .title{        
+        padding: 32px;
+        gap: 16px;
+    }
+
+    .title__div{        
+        flex-direction: row-reverse;        
+        justify-content: space-between;
+        gap: 16px;        
+    }
+
+    .title__profile{
+        width: 146px;        
+    }
+
+    .title__container{
+        width: 520px;
+    }
+
+
+    .title__network{
+        gap: 32px;
+    }
+
+
+
+}
+@media screen and (min-width:1440px){
+
+
+    .title{      
+        
+        justify-content: center;           
+        padding: 32px 0;
+        gap: 32px;
+    }
+
+    .title__div{        
+        flex-direction: row-reverse;            ;            
+        gap: 32px   ;
+        width: 1136px;        
+    }
+
+    .title__container{
+        width: 100%;
+        gap: 32px;
+        
+    }
+
+    .title__profile{
+        width: 751px;        
+    }
+
+    .title__bio{
+        font-size: 3rem;
+        font-weight: bold;        
+    }
+
+    .title__subsection{
+        font-size: 1.5rem;
+    }
+
+    .title__network{
+        font-size: 1.2rem;
+    }
+
+}
+

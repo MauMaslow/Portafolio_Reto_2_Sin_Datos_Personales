@@ -1,0 +1,17 @@
+
+.footer{
+    text-align: center;  
+    background-color: #fff; 
+    width: calc(100% - 64px);
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 32px;
+    gap: 10px;
+}
+
+.footer__rodape{
+    width: 229px;
+    height: 38px;
+}

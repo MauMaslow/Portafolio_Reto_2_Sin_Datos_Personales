@@ -1,0 +1,139 @@
+
+.about{
+    background-color: #EAF2FD;
+    border: solid 1px blue/10%;
+    display: flex;
+    margin: auto;
+    padding: 64px;
+    gap: 10px;
+    margin: auto;
+}
+
+.about__container{
+    display: flex;
+    flex-direction: column;    
+    gap: 20px;        
+    justify-content: center;
+    align-items: start;
+    width: 80%;
+    margin: auto;
+}
+   
+
+.about__title{
+    width: 137px;
+    font-size: 1.7rem;
+    font-weight: bold;
+}
+
+.about__paragraph{
+    width: 751px;
+    font-weight: 400;
+    font-size: .9rem;
+}
+
+.about__container img{
+    width: 140px;
+}
+
+
+@media screen and (min-width:0px){
+
+    .about{               
+        padding: 16px;
+        gap: 10px;
+        ;    
+    }
+
+    .about__container{
+        display: flex;               
+        width: 100%;  
+        width: calc(360px - 35px)      
+    }
+
+    .about__title{
+        width: 94px;
+        font-size: 1.4rem;
+        font-weight: bold;
+    }
+    
+    .about__paragraph{
+        width: 305px;
+    }
+    
+    .about__container img{
+        width: 140px;
+    }
+    
+
+
+
+}
+
+@media screen and (min-width:425px){}
+@media screen and (min-width:768px){
+
+    .about{               
+        padding: 35px;
+        gap: 10px;
+            
+    }
+
+    .about__container{
+        display: flex;               
+        width: 100%;     
+        gap: 16px;   
+        width: calc(768px - 70px);
+    }
+
+    .about__title{
+        width: 94px;
+        font-size: 1.4rem;
+        font-weight: bold;
+    }
+    
+    .about__paragraph{
+        width: 95%;
+    }
+    
+    .about__container img{
+        width: 140px;
+    }
+
+}
+@media screen and (min-width:1440px){
+
+
+    
+    .about{               
+        padding: 35px;
+        gap: 32px;          
+        justify-content: center;
+        width: calc(100% - 70px);
+       
+    }
+
+    .about__container{
+        display: flex;                          
+        gap: 16px;  
+        width: 1136px; 
+        margin: 0;
+       
+    }
+
+    .about__title{
+        width: 150px;
+        font-size: 1.9rem;
+        font-weight: bold;
+    }
+    
+    .about__paragraph{
+        width: 62.8%;
+        font-size: 1.45rem;
+    }
+    
+    .about__container img{
+        width: 140px;
+    }
+
+}

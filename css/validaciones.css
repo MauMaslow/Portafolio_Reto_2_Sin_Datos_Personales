@@ -1,0 +1,52 @@
+
+
+
+	/*Fallos de validacion de formularjo JS*/
+
+
+	.form__group.validacionFallo input{
+		border: solid 1px;
+		border-color: rgb(189, 0, 0);
+	}
+
+	.form__group.validacionOk input{
+		border: solid 1px;
+		border-color: #0db941;
+	}
+
+    
+	.form__group.validacionErrortextarea textarea{
+		border: solid 1px;
+		border-color: rgb(189, 0, 0);
+	}
+
+	.form__group.validacionOKtextarea textarea{
+		border: solid 1px;
+		border-color: #0db941;
+	}
+
+
+	.form__group p{
+		visibility: hidden;
+		position: absolute;
+		font-size: small;
+		font-weight: 500;
+		text-align: right;
+		}
+
+	.form__group.validacionFallo p{
+		visibility: visible;		
+		color: rgb(243, 0, 0);
+		font-weight: bold;
+		padding: 5px;
+	} 
+
+    .form__group.validacionErrortextarea p{
+		visibility: visible;		
+		color: rgb(243, 0, 0);
+		font-weight: bold;
+		padding: 5px;
+	} 
+
+
+  
